@@ -22,7 +22,7 @@ const Chatting: React.FC = () => {
             <div className='flex gap-2 items-center'>
               <Avatar />
               <div className='p-2 bg-slate-200 rounded-xl rounded-bl-none'>
-                <div>I'm fine, thank you</div>
+                <div>Im fine, thank you</div>
               </div>
             </div>
           </div>

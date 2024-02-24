@@ -29,8 +29,10 @@ const TransactionList: React.FC = () => {
         ]}
         renderItem={(item, index) => (
           <List.Item
+            key={index}
             actions={[
               <Button
+                key={`action-more-${index}`}
                 icon={<PiDotsThreeVerticalBold className='text-lg pt-1' />}
               />,
             ]}

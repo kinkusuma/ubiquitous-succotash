@@ -28,4 +28,5 @@ export const NavFooter = React.forwardRef<HTMLDivElement, NavFooterProps>(
   }
 );
 
+NavFooter.displayName = "NavFooter";
 export default NavFooter;

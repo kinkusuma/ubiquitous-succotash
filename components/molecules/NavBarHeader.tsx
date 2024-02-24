@@ -34,4 +34,5 @@ export const NavBarHeader = React.forwardRef<HTMLDivElement, NavBarHeaderProps>(
   }
 );
 
+NavBarHeader.displayName = "NavBarHeader";
 export default NavBarHeader;

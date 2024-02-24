@@ -30,4 +30,5 @@ const NavMenuContainer = React.forwardRef<
   );
 });
 
+NavMenuContainer.displayName = "NavMenuContainer";
 export default NavMenuContainer;

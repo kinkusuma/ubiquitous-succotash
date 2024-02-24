@@ -41,4 +41,5 @@ export const NavBarMenu = React.forwardRef<HTMLDivElement, NavBarMenuProps>(
   }
 );
 
+NavBarMenu.displayName = "NavBarMenu";
 export default NavBarMenu;
