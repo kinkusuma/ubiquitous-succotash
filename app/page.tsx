@@ -29,10 +29,8 @@ export default function Home() {
           <Chatting />
         </div>
 
-        <div className='grid grid-cols-3 gap-5'>
-          <div className='col-span-2'>
-            <TransactionList />
-          </div>
+        <div className='grid grid-cols-2 gap-5'>
+          <TransactionList />
           <TransactionInsight />
         </div>
       </div>
